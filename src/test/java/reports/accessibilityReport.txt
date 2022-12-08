@@ -1,0 +1,2875 @@
+{
+  "toolOptions": {
+    "reporter": "v1"
+  },
+  "testEngine": {
+    "name": "axe-core",
+    "version": "4.4.3"
+  },
+  "testEnvironment": {
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36",
+    "windowWidth": 865,
+    "windowHeight": 862,
+    "orientationAngle": 0.0,
+    "orientationType": "landscape-primary"
+  },
+  "testRunner": {
+    "name": "axe"
+  },
+  "url": "https://www.amazon.com/",
+  "timestamp": "2022-12-08T11:30:50.142Z",
+  "passes": [
+    {
+      "id": "autocomplete-valid",
+      "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+      "help": "autocomplete attribute must be used correctly",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/autocomplete-valid?application\u003daxeAPI",
+      "impact": "",
+      "tags": [
+        "cat.forms",
+        "wcag21aa",
+        "wcag135"
+      ],
+      "nodes": [
+        {
+          "html": "\u003cinput type\u003d\"text\" id\u003d\"twotabsearchtextbox\" value\u003d\"\" name\u003d\"field-keywords\" autocomplete\u003d\"off\" placeholder\u003d\"\" class\u003d\"nav-input nav-progressive-attribute\" dir\u003d\"auto\" tabindex\u003d\"0\" aria-label\u003d\"Search\" spellcheck\u003d\"false\"\u003e",
+          "target": [
+            "#twotabsearchtextbox"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "autocomplete-valid",
+              "impact": "serious",
+              "message": "the autocomplete attribute is correctly formatted",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        }
+      ]
+    },
+    {
+      "id": "avoid-inline-spacing",
+      "description": "Ensure that text spacing set through style attributes can be adjusted with custom stylesheets",
+      "help": "Inline text spacing must be adjustable with custom stylesheets",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/avoid-inline-spacing?application\u003daxeAPI",
+      "impact": "serious",
+      "tags": [
+        "cat.structure",
+        "wcag21aa",
+        "wcag1412"
+      ],
+      "nodes": [
+        {
+          "html": "\u003cselect aria-describedby\u003d\"searchDropdownDescription\" class\u003d\"nav-search-dropdown searchSelect nav-progressive-attrubute nav-progressive-search-dropdown\" data-nav-digest\u003d\"k+fyIAyB82R9jVEmroQ0OWwSW3A\u003d\" data-nav-selected\u003d\"0\" id\u003d\"searchDropdownBox\" name\u003d\"url\" style\u003d\"display: block;\" tabindex\u003d\"0\" title\u003d\"Search in\"\u003e",
+          "target": [
+            "#searchDropdownBox"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cspan class\u003d\"nav-icon nav-arrow\" style\u003d\"visibility: visible;\"\u003e\u003c/span\u003e",
+          "target": [
+            ".icp-nav-link-inner \u003e .nav-line-2 \u003e .nav-icon.nav-arrow"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cspan class\u003d\"nav-icon nav-arrow\" style\u003d\"visibility: visible;\"\u003e\u003c/span\u003e",
+          "target": [
+            "#nav-link-accountList \u003e .nav-line-2 \u003e .nav-icon.nav-arrow"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cdiv class\u003d\"nav-signin-tt nav-flyout\" style\u003d\"display: block; position: absolute; top: -5px; left: 709.5px; opacity: 1;\"\u003e",
+          "target": [
+            ".nav-signin-tt"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cdiv data-toaster-blocking\u003d\"0\" data-toaster-csrftoken\u003d\"gOaxE8S66W6Rt+gsUcLl7aVnAn+ExTUaWvE+3WEAAAAMAAAAAGORyulyYXcAAAAA;hKgL75AoAfvuuFTffVVbCBktDHSY4VLhp4r5XrJQMu8qAAAAAGORyukAAAAB\" data-toaster-slot\u003d\"DEFAULT\" data-toaster-type\u003d\"AIS_INGRESS\" aria-describedby\u003d\"glow-toaster-body\" aria-labelledby\u003d\"glow-toaster-title\" class\u003d\"a-section glow-toaster glow-toaster-theme-default glow-toaster-slot-default nav-coreFlyout nav-flyout\" role\u003d\"alertdialog\" style\u003d\"\" tabindex\u003d\"-1\"\u003e",
+          "target": [
+            ".glow-toaster"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cdiv style\u003d\"color: black\"\u003e\n                    \u003cdiv class\u003d\"a-box a-alert a-alert-error glow-toaster-error aok-hidden a-spacing-base\" role\u003d\"alert\"\u003e\u003cdiv class\u003d\"a-box-inner a-alert-container\"\u003e\u003ci class\u003d\"a-icon a-icon-alert\"\u003e\u003c/i\u003e\u003cdiv class\u003d\"a-alert-content\"\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e\n                \u003c/div\u003e",
+          "target": [
+            ".a-size-base \u003e div"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cdiv class\u003d\"a-carousel-col a-carousel-left celwidget\" style\u003d\"visibility: visible; z-index: 10;\" cel_widget_id\u003d\"gw-desktop-hero-left-cel\" data-csa-c-type\u003d\"action\" data-csa-c-action\u003d\"herotatorLeftArrow\" data-csa-c-slot-id\u003d\"gw-desktop-hero-left\" data-csa-c-id\u003d\"md2qxo-k21jfm-hks85s-3vw7in\" data-cel-widget\u003d\"gw-desktop-hero-left-cel\"\u003e",
+          "target": [
+            ".a-carousel-left"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cdiv class\u003d\"a-carousel-viewport\" id\u003d\"anonCarousel1\" style\u003d\"height: 600px;\"\u003e",
+          "target": [
+            "#anonCarousel1"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003col class\u003d\"a-carousel\" role\u003d\"list\" style\u003d\"width: 7000px; transition: all 0ms ease 0s; transform: translateX(-3000px) translateZ(0px);\"\u003e",
+          "target": [
+            "ol"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli class\u003d\"a-carousel-card\" role\u003d\"listitem\" aria-setsize\u003d\"7\" aria-posinset\u003d\"1\" aria-hidden\u003d\"false\" style\u003d\"visibility: visible; width: 1000px; margin: 0px;\"\u003e",
+          "target": [
+            ".a-carousel-card[aria-setsize\u003d\"7\"][aria-posinset\u003d\"1\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cdiv class\u003d\"a-carousel-col a-carousel-right celwidget\" style\u003d\"visibility: visible; z-index: 10;\" cel_widget_id\u003d\"gw-desktop-hero-right-cel\" data-csa-c-type\u003d\"action\" data-csa-c-action\u003d\"herotatorRightArrow\" data-csa-c-slot-id\u003d\"gw-desktop-hero-right\" data-csa-c-id\u003d\"s3rulj-lmtqyc-qtfgc1-hmpr8n\" data-cel-widget\u003d\"gw-desktop-hero-right-cel\"\u003e",
+          "target": [
+            ".a-carousel-right"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cdiv class\u003d\"a-image-container a-dynamic-image-container\" style\u003d\"height:85px\"\u003e",
+          "target": [
+            ".grid-row-1.a-section \u003e .aok-float-left.quadrant-container-0.a-spacing-none \u003e .a-image-container.a-dynamic-image-container"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cdiv class\u003d\"a-image-container a-dynamic-image-container\" style\u003d\"height:85px\"\u003e",
+          "target": [
+            ".grid-row-1.a-section \u003e .aok-float-left.quadrant-container-1.a-spacing-none \u003e .a-image-container.a-dynamic-image-container"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cdiv class\u003d\"a-image-container a-dynamic-image-container\" style\u003d\"height:85px\"\u003e",
+          "target": [
+            ".a-spacing-mini \u003e .aok-float-left.quadrant-container-0.a-spacing-none \u003e .a-image-container.a-dynamic-image-container"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cdiv class\u003d\"a-image-container a-dynamic-image-container\" style\u003d\"height:85px\"\u003e",
+          "target": [
+            ".a-spacing-mini \u003e .aok-float-left.quadrant-container-1.a-spacing-none \u003e .a-image-container.a-dynamic-image-container"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli class\u003d\"feed-carousel-card\" aria-posinset\u003d\"1\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"11\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            ".feed-carousel-card[aria-posinset\u003d\"1\"][aria-setsize\u003d\"11\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli class\u003d\"feed-carousel-card\" aria-posinset\u003d\"2\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"11\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            ".feed-carousel-card[aria-posinset\u003d\"2\"][aria-setsize\u003d\"11\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli class\u003d\"feed-carousel-card\" aria-posinset\u003d\"3\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"11\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            ".feed-carousel-card[aria-posinset\u003d\"3\"][aria-setsize\u003d\"11\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli class\u003d\"feed-carousel-card\" aria-posinset\u003d\"4\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"11\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            ".feed-carousel-card[aria-posinset\u003d\"4\"][aria-setsize\u003d\"11\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli class\u003d\"feed-carousel-card\" aria-posinset\u003d\"5\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"11\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            ".feed-carousel-card[aria-posinset\u003d\"5\"][aria-setsize\u003d\"11\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli class\u003d\"feed-carousel-card\" aria-posinset\u003d\"6\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"11\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            ".feed-carousel-card[aria-posinset\u003d\"6\"][aria-setsize\u003d\"11\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli class\u003d\"feed-carousel-card\" aria-posinset\u003d\"7\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"11\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            ".feed-carousel-card[aria-posinset\u003d\"7\"][aria-setsize\u003d\"11\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli class\u003d\"feed-carousel-card\" aria-posinset\u003d\"8\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"11\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            ".feed-carousel-card[aria-posinset\u003d\"8\"][aria-setsize\u003d\"11\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli class\u003d\"feed-carousel-card\" aria-posinset\u003d\"9\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"11\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            ".feed-carousel-card[aria-posinset\u003d\"9\"][aria-setsize\u003d\"11\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli class\u003d\"feed-carousel-card\" aria-posinset\u003d\"10\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"11\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            ".feed-carousel-card[aria-posinset\u003d\"10\"][aria-setsize\u003d\"11\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli class\u003d\"feed-carousel-card\" aria-posinset\u003d\"11\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"11\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            ".feed-carousel-card[aria-posinset\u003d\"11\"][aria-setsize\u003d\"11\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cspan class\u003d\"feed-scrollbar-thumb\" style\u003d\"width: 368px; left: 0px; display: inline;\"\u003e\u003c/span\u003e",
+          "target": [
+            ".first-carousel \u003e .feed-scrollbar \u003e .feed-scrollbar-track \u003e .feed-scrollbar-thumb"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B097CNMZF5\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"1\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B097CNMZF5\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B00T0C9XRK\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"2\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B00T0C9XRK\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B07XPRQN53\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"3\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B07XPRQN53\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B00325D0WK\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"4\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B00325D0WK\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B08SWHKGMF\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"5\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B08SWHKGMF\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B08D9MVCQG\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"6\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B08D9MVCQG\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B08511Q534\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"7\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B08511Q534\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B09X9P19RK\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"8\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B09X9P19RK\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B00U2VQZDS\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"9\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B00U2VQZDS\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B00QKY2QWU\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"10\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B00QKY2QWU\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B07GC88JBC\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"11\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B07GC88JBC\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B07D37SBHF\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"12\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B07D37SBHF\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B06XP7Z1KN\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"1\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B06XP7Z1KN\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B087XBNVG5\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"2\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B087XBNVG5\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B07L5QGF38\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"3\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B07L5QGF38\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B07X2TDM9X\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"4\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B07X2TDM9X\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B008KJEYLO\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"5\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B008KJEYLO\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B01D50RYSC\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"6\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B01D50RYSC\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B00028MW1A\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"7\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B00028MW1A\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B09KHK2FPF\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"8\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B09KHK2FPF\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B089F9YDFC\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"9\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B089F9YDFC\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B07JVM5VPR\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"10\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B07JVM5VPR\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B079VP6DH5\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"11\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B079VP6DH5\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B093X8QQ12\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"12\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B093X8QQ12\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0056GCLVO\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"13\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0056GCLVO\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0BM3LJ33R\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"1\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0BM3LJ33R\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;1535905719\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"2\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"1535905719\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B09ZCX289T\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"3\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B09ZCX289T\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0BLQW74BY\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"4\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0BLQW74BY\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0BL2S4572\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"5\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0BL2S4572\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B09QGB3VWL\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"6\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B09QGB3VWL\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0B2HRPDW1\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"7\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0B2HRPDW1\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0BMSZS9BG\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"8\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0BMSZS9BG\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0BLQN2MDH\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"9\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0BLQN2MDH\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0BMWBWGH8\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"10\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0BMWBWGH8\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0BN21JG79\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"11\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0BN21JG79\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;8195837905\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"12\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"8195837905\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;0593420705\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"13\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"0593420705\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;1724965166\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"14\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"1724965166\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;1981743952\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"15\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"1981743952\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;1647045371\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"16\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"1647045371\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;1524875023\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"17\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"1524875023\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0BM3NMN1F\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"18\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0BM3NMN1F\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B08BDSDDFF\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"19\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B08BDSDDFF\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;1886785821\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"20\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"1886785821\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B08BF2TWTN\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"21\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B08BF2TWTN\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B088N5HPVH\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"22\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B088N5HPVH\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;1952940427\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"23\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"23\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"1952940427\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B00M777UUW\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"1\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B00M777UUW\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B016YGUEQI\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"2\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B016YGUEQI\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B08QW9S4XX\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"3\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B08QW9S4XX\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B002IY96B0\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"4\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B002IY96B0\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B074V3N9VQ\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"5\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B074V3N9VQ\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B01BYKD628\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"6\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B01BYKD628\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B00J3IPS5W\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"7\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B00J3IPS5W\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B084T6M9DX\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"8\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B084T6M9DX\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B075L81JP5\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"9\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B075L81JP5\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B072FVQNWM\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"10\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B072FVQNWM\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B08SCBT6DF\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"11\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B08SCBT6DF\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B00115R6GO\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"12\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B00115R6GO\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0071NS966\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"13\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"13\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0071NS966\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0B14LBNL6\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"1\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"25\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0B14LBNL6\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B09HVC79PC\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"2\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"25\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B09HVC79PC\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B07YP94PBJ\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"3\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"25\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B07YP94PBJ\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B01MSSDEPK\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"4\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"25\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B01MSSDEPK\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;0984782850\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"5\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"25\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"0984782850\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B09YWBVMNM\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"6\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"25\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B09YWBVMNM\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B07XWGWPH5\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"7\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"25\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B07XWGWPH5\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B005JVP0LE\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"8\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"25\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B005JVP0LE\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B09MXD952X\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"9\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B09MXD952X\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B09R6FJWWS\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"10\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B09R6FJWWS\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B09X9C4TNQ\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"11\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B09X9C4TNQ\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0B96H7LGX\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"12\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0B96H7LGX\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B08QZVR3SD\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"13\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B08QZVR3SD\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B08JKHPV1V\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"14\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B08JKHPV1V\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0B2SH4CN6\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"15\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0B2SH4CN6\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B08KSHB2L4\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"16\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B08KSHB2L4\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B09SVQ25XH\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"17\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B09SVQ25XH\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B09BG7QFRG\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"18\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B09BG7QFRG\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B081KLNHSG\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"19\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B081KLNHSG\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B09HX29TPY\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"20\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B09HX29TPY\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B08X26ZYZ2\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"21\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B08X26ZYZ2\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B09QYRF86Y\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"22\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B09QYRF86Y\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B09VCHQHZ6\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"23\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B09VCHQHZ6\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B09FD8RQQ7\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"24\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B09FD8RQQ7\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B01K1HPA60\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"25\" aria-posinset\u003d\"25\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B01K1HPA60\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B01H6WXUX8\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"1\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"16\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B01H6WXUX8\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0106UASB4\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"2\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"16\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0106UASB4\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B00A2JBMRE\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"3\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"16\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B00A2JBMRE\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B01EDKGFGU\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"4\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"16\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B01EDKGFGU\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B07DQWT15Y\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"5\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"16\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B07DQWT15Y\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B07CM51W6V\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"6\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"16\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B07CM51W6V\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B072QDSJKT\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"7\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"16\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B072QDSJKT\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B01ASEC23A\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"8\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"16\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B01ASEC23A\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B01NBNDC1T\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"16\" aria-posinset\u003d\"9\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B01NBNDC1T\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0744NP826\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"16\" aria-posinset\u003d\"10\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0744NP826\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B078RLNJZW\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"16\" aria-posinset\u003d\"11\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B078RLNJZW\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B00XHXU7PU\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"16\" aria-posinset\u003d\"12\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B00XHXU7PU\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B07XHQKGL3\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"16\" aria-posinset\u003d\"13\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B07XHQKGL3\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B07459P7BF\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"16\" aria-posinset\u003d\"14\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B07459P7BF\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B016MB5K0A\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"16\" aria-posinset\u003d\"15\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B016MB5K0A\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B01CS31NV6\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"16\" aria-posinset\u003d\"16\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B01CS31NV6\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B00GHAGGOG\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"1\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B00GHAGGOG\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0771V1JZX\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"2\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0771V1JZX\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B07GJ2MWTZ\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"3\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B07GJ2MWTZ\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B079S6GZCJ\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"4\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B079S6GZCJ\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B07HRPQL6S\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"5\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B07HRPQL6S\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B003Y2PIJY\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"6\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B003Y2PIJY\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B078W3Q73P\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"7\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B078W3Q73P\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B07FK5HF7L\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-posinset\u003d\"8\" aria-hidden\u003d\"false\" role\u003d\"listitem\" aria-setsize\u003d\"12\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B07FK5HF7L\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B077PR8DX6\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"12\" aria-posinset\u003d\"9\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B077PR8DX6\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B0084DS9EE\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"12\" aria-posinset\u003d\"10\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B0084DS9EE\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B006R64JV2\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"12\" aria-posinset\u003d\"11\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B006R64JV2\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cli data-sgproduct\u003d\"{\u0026quot;asin\u0026quot;:\u0026quot;B01N9TYTWL\u0026quot;}\" class\u003d\"feed-carousel-card\" aria-setsize\u003d\"12\" aria-posinset\u003d\"12\" aria-hidden\u003d\"false\" role\u003d\"listitem\" style\u003d\"display: inline-block;\"\u003e",
+          "target": [
+            "li[data-sgproduct\u003d\"{\\\"asin\\\":\\\"B01N9TYTWL\\\"}\"]"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cdiv id\u003d\"rhf\" class\u003d\"copilot-secure-display\" style\u003d\"clear: both;\" role\u003d\"complementary\" aria-label\u003d\"Your recently viewed items and featured recommendations\"\u003e",
+          "target": [
+            "#rhf"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cdiv class\u003d\"navFooterVerticalRow navAccessibility\" style\u003d\"display: table-row;\"\u003e",
+          "target": [
+            ".navFooterVerticalRow"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(1) \u003e .navFooterDescSpacer:nth-child(2)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(1) \u003e .navFooterDescSpacer:nth-child(4)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(1) \u003e .navFooterDescSpacer:nth-child(6)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(1) \u003e .navFooterDescSpacer:nth-child(8)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(1) \u003e .navFooterDescSpacer:nth-child(10)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(1) \u003e .navFooterDescSpacer:nth-child(12)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(3) \u003e .navFooterDescSpacer:nth-child(2)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(3) \u003e .navFooterDescSpacer:nth-child(4)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(3) \u003e .navFooterDescSpacer:nth-child(6)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(3) \u003e .navFooterDescSpacer:nth-child(8)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(3) \u003e .navFooterDescSpacer:nth-child(10)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(3) \u003e .navFooterDescSpacer:nth-child(12)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(5) \u003e .navFooterDescSpacer:nth-child(2)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(5) \u003e .navFooterDescSpacer:nth-child(4)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(5) \u003e .navFooterDescSpacer:nth-child(6)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(5) \u003e .navFooterDescSpacer:nth-child(8)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(5) \u003e .navFooterDescSpacer:nth-child(10)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(5) \u003e .navFooterDescSpacer:nth-child(12)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(7) \u003e .navFooterDescSpacer:nth-child(2)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(7) \u003e .navFooterDescSpacer:nth-child(4)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(7) \u003e .navFooterDescSpacer:nth-child(6)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(7) \u003e .navFooterDescSpacer:nth-child(8)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(7) \u003e .navFooterDescSpacer:nth-child(10)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(7) \u003e .navFooterDescSpacer:nth-child(12)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(9) \u003e .navFooterDescSpacer:nth-child(2)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(9) \u003e .navFooterDescSpacer:nth-child(4)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(9) \u003e .navFooterDescSpacer:nth-child(6)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(9) \u003e .navFooterDescSpacer:nth-child(8)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003ctd class\u003d\"navFooterDescSpacer\" style\u003d\"width: 4%\"\u003e\u003c/td\u003e",
+          "target": [
+            "tr:nth-child(9) \u003e .navFooterDescSpacer:nth-child(10)"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        },
+        {
+          "html": "\u003cdiv id\u003d\"a-popover-root\" style\u003d\"z-index:-1;position:absolute;\"\u003e\u003c/div\u003e",
+          "target": [
+            "#a-popover-root"
+          ],
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "No inline styles with \u0027!important\u0027 that affect text spacing has been specified",
+              "relatedNodes": []
+            }
+          ],
+          "none": []
+        }
+      ]
+    }
+  ],
+  "violations": [
+    {
+      "id": "avoid-inline-spacing",
+      "description": "Ensure that text spacing set through style attributes can be adjusted with custom stylesheets",
+      "help": "Inline text spacing must be adjustable with custom stylesheets",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.4/avoid-inline-spacing?application\u003daxeAPI",
+      "impact": "serious",
+      "tags": [
+        "cat.structure",
+        "wcag21aa",
+        "wcag1412"
+      ],
+      "nodes": [
+        {
+          "html": "\u003cspan class\u003d\"a-truncate\" data-a-word-break\u003d\"normal\" data-a-max-rows\u003d\"2\" data-a-overflow-marker\u003d\"\u0026amp;hellip;\" style\u003d\"line-height:1.3em !important;max-height:2.6em\" data-a-recalculate\u003d\"false\" data-a-updated\u003d\"true\"\u003e",
+          "target": [
+            ".a-truncate"
+          ],
+          "impact": "serious",
+          "any": [],
+          "all": [
+            {
+              "id": "avoid-inline-spacing",
+              "impact": "serious",
+              "message": "Remove \u0027!important\u0027 from inline style line-height, as overriding this is not supported by most browsers",
+              "data": [
+                "line-height"
+              ],
+              "relatedNodes": []
+            }
+          ],
+          "none": [],
+          "failureSummary": "Fix all of the following:\n  Remove \u0027!important\u0027 from inline style line-height, as overriding this is not supported by most browsers"
+        }
+      ]
+    }
+  ],
+  "incomplete": [],
+  "inapplicable": [],
+  "errored": false
+}
