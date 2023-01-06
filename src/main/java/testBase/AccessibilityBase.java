@@ -20,7 +20,7 @@ import java.util.List;
 
 public class AccessibilityBase extends FrameworkBase
 {
-    private static List<String> tags = Arrays.asList("wcag21a", "wcag21aa", "wcag21aa");
+    private static List<String> tags = Arrays.asList("wcag2a", "wcag2aa", "wcag2aaa", "wcag21a", "wcag21aa", "wcag21aaa");
     private static String reportPath = System.getProperty("user.dir") + "/src/test/java/reports/";
 
     public static void checkAccessibilityViolations() throws IOException
@@ -58,7 +58,8 @@ public class AccessibilityBase extends FrameworkBase
             JsonElement jsonElement = jsonParser.parse(new FileReader(reportFile + ".json"));
             String prettyJson = gson.toJson(jsonElement);
             AxeReporter.writeResultsToTextFile(reportFile, prettyJson);
-            System.out.println(results.getViolations());
+            for(Rule violation: results.getViolations())
+                System.out.println(violation.getHelp() + " " + violation.getImpact() + " " + violation.getNodes().size());
             //Assert.assertEquals(violations.size(), violations.size() + " violations found");
         }
     }
